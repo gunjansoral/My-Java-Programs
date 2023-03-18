@@ -1,6 +1,6 @@
 package DSA.LinkedList;
 
-public class LinkedList {
+public class LinkedListMain {
     public class Node {
         public int value;
         public Node next;
@@ -15,7 +15,7 @@ public class LinkedList {
     public Node tail = new Node();
     int length;
 
-    public LinkedList() {
+    public LinkedListMain() {
         this.head = null;
         this.tail = null;
         this.length = 0;

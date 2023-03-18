@@ -2,7 +2,7 @@ package DSA.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
+        LinkedListMain ll = new LinkedListMain();
         ll.add(20);
         ll.add(50);
         ll.add(50);
