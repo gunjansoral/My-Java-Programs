@@ -11,7 +11,6 @@ public class SmallerWindow {
         for (char ch : chr) {
             map.put(ch, 1);
         }
-        int distCount = map.size();
         String smallestWindowStr = "";
         Map mapWindow = null;
         for (int i = 0; i < str.length(); i++) {
