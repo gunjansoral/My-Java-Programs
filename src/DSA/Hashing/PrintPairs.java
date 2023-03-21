@@ -11,7 +11,7 @@ public class PrintPairs {
             map.put(i, names[i]);
         }
         for (Map.Entry<Integer, String> e : map.entrySet()) {
-            System.out.println(e.getKey() + " : " + e.getValue());
+            System.out.println("Roll no. : " + e.getKey() + ", Name : " + e.getValue());
         }
     }
 }
